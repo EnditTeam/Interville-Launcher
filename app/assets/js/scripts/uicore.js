@@ -49,14 +49,14 @@ if(!isDev){
                 loggerAutoUpdater.info('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/simon511000/GrandMondeLauncher/releases/download/v${info.version}/Helios-Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
+                    info.darwindownload = `https://github.com/EnditTeam/Interville-Launcher/releases/download/v${info.version}/Interville-Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
                     showUpdateUI(info)
                 }
                 
                 populateSettingsUpdateInformation(info)
                 break
             case 'update-downloaded':
-                loggerAutoUpdater.info('Update ' + info.version + ' ready to be installed.')
+                loggerAutoUpdater.info('La mise à jour ' + info.version + ' est prête à être installée.')
                 settingsUpdateButtonStatus(Lang.queryJS('uicore.autoUpdate.installNowButton'), false, () => {
                     if(!isDev){
                         ipcRenderer.send('autoUpdateAction', 'installUpdateNow')

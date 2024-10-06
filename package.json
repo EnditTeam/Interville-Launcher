@@ -1,13 +1,13 @@
 {
-  "name": "grandmondelauncher",
-  "version": "1.0.3",
-  "productName": "Grand Monde Launcher",
-  "description": "Grand Monde's Launcher",
+  "name": "interville-launcher",
+  "version": "1.0.0",
+  "productName": "Interville-Launcher",
+  "description": "Launcher d'Interville",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/simon511000/GrandMondeLauncher",
+  "homepage": "https://github.com/EnditTeam/Interville-Launcher",
   "bugs": {
-    "url": "https://github.com/simon511000/GrandMondeLauncher/issues"
+    "url": "https://github.com/EnditTeam/Interville-Launcher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simon511000/GrandMondeLauncher.git"
+    "url": "git+https://github.com/EnditTeam/Interville-Launcher.git"
   }
 }

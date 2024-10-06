@@ -1,8 +1,8 @@
-appId: 'grandmondelauncher'
-productName: 'Grand Monde Launcher'
+appId: 'intervillelauncher'
+productName: "Interville-Launcher"
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2023 Simon Ledoux'
+copyright: 'Copyright © 2018-2024 EnditTeam'
 
 asar: true
 compression: 'maximum'
@@ -39,10 +39,10 @@ mac:
 # Linux Configuration
 linux: 
   target: 'AppImage'
-  maintainer: 'Simon Ledoux'
-  vendor: 'Simon Ledoux'
-  synopsis: 'Launcher de Grand Monde'
-  description: 'Launcher de Grand Monde.'
+  maintainer: 'EnditTeam'
+  vendor: 'EnditTeam'
+  synopsis: "Launcher d'Interville"
+  description: "Launcher d'Interville."
   category: 'Game'
 
 

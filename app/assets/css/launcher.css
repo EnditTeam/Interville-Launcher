@@ -3136,6 +3136,15 @@ input:checked + .toggleSwitchSlider:before {
     transition-delay:0s;
 }
 
+/* Twitch icon colors. */
+#twitchSVG:hover,
+#twitchURL:focus #twitchSVG {
+    fill: #6441a5;
+}
+#twitchSVG:active {
+    fill: #6441a5;
+}
+
 /* Twitter icon colors. */
 #twitterSVG:hover,
 #twitterURL:focus #twitterSVG {
@@ -3171,6 +3180,15 @@ input:checked + .toggleSwitchSlider:before {
 }
 #discordSVG:active {
     fill: #657ac4;
+}
+
+/* Tiktok icon colors. */
+#tiktokSVG:hover,
+#tiktokURL:focus #tiktokSVG {
+    fill: #ff0050;
+}
+#tiktokSVG:active {
+    fill: #ff0050;
 }
 
 /*******************************************************************************

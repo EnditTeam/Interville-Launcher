@@ -19,7 +19,6 @@ const VIEWS = {
     loginOptions: '#loginOptionsContainer',
     login: '#loginContainer',
     settings: '#settingsContainer',
-    welcome: '#welcomeContainer',
     waiting: '#waitingContainer'
 }
 
@@ -80,7 +79,8 @@ async function showMainUI(data){
             validateSelectedAccount()
         }
 
-        if(ConfigManager.isFirstLaunch()){
+        // if(ConfigManager.isFirstLaunch()){
+        if(false){
             currentView = VIEWS.welcome
             $(VIEWS.welcome).fadeIn(1000)
         } else {
