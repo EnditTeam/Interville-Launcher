@@ -46,6 +46,8 @@ jobs:
       contents: write # to create release commit
       pull-requests: write # to create release PR
 
+    needs: build
+
     runs-on: ubuntu-latest
 
     steps:
