@@ -44,6 +44,7 @@ linux:
   synopsis: "Launcher d'Interville"
   description: "Launcher d'Interville."
   category: 'Game'
+  compression: normal
 
 
 directories:
